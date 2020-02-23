@@ -1,0 +1,26 @@
+div{
+	text-align: center;
+}
+
+
+img{
+	width: 200px;
+	border-radius: 10px;
+}
+a{
+	text-decoration: none;
+	color: #3fff;
+}
+a:hover{
+	background-color: #fff;
+}
+aside,main{
+	background-color: rgb(65, 74, 31);
+}
+figcaption{
+	text-align: left;
+}
+.card:hover{
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(15,30,20,1);
+}
+

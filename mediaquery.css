@@ -1,0 +1,32 @@
+@media screen and (max-width: 1200px){
+	#header{
+		grid-column: span 6;
+	}
+	#menu{
+		grid-row: 1;
+		grid-column: span 6;
+
+	}
+	li{
+		display: inline;
+		
+	}
+	#main{
+		grid-column: span 12;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.nested-grid{
+		grid-template-columns: 1fr;
+	}
+}
+
+@media screen and (max-width: 1200px){
+	.about{
+		display: inline-block;
+
+	}
+	.about{
+		width: 100vw;
+	}
+}
